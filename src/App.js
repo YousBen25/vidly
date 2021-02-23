@@ -1,13 +1,14 @@
 import './App.css';
-import MovieTable from './components/MovieTable';
 import { getMovies } from './services/fakeMovieService';
+
+import Movies from './components/Movies';
 
 
 function App() {
   const movies = getMovies();
   return (
     <main className="container">
-      <MovieTable movies={movies}/>
+      <Movies />
     </main>
   );
 }
