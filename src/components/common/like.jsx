@@ -1,5 +1,6 @@
 // input: liked: boolean
 // output: onClick event
+import React from 'react';
 
 const Like = (props) => {
     let classes = "fa fa-heart";
